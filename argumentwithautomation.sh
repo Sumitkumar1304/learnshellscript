@@ -8,5 +8,6 @@ echo "Enter Username which you want to crate a user"
 
 read username
 
-sudo useradd $username
+sudo useradd -m  $username
 
+echo "first argument $1"
